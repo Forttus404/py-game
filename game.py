@@ -125,11 +125,6 @@ class Mob(Character):
     def __init__(self, level: int, experience: int):
         super().__init__(level, experience)
 
-    '''def attack(self, target: "Character") -> None:
-        attack_power = self._attack_power
-        if target.health_points_percent < 30:
-            attack_power = self._attack_power * 2
-        target.take_damage(damage=attack_power)'''
 
 class Goblin_Collector(Mob):
     base_health_points = 100
